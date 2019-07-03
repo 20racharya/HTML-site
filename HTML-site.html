@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Site</title>
+	<style type="text/css">
+		* {margin: 0; padding: 0;}
+
+		body{
+			font-family: Times New Roman;
+			background-color: #efefef;
+		}
+
+		#header{
+			background-color: #99ccff;
+			height: 100px;
+			width:100%;
+		}
+		p{
+			font-family: Impact;
+			font-size: 30px;
+			color: black;
+			float: left;
+		}
+
+		.container{
+			width: 960px;
+			height: auto;
+			margin: 0 auto;
+		}
+		#nametype{
+			width: 300px;
+			height: 100px;
+			float: left;
+		}
+
+		#navBox{
+			width: 600px;
+			height: 100px;
+			float: right;
+		}
+
+		#nav{
+			list-style: none;
+			margin-top: 30px;
+		}
+
+		#nav a{
+			color: grey;
+			text-decoration: none;
+		}
+
+		#nav li{
+			float: left;
+			margin-left: 30px;
+			background-color: #99b3ff;
+			border: 2px solid silver;
+			border-radius: 7px;
+			font-size: 20px;
+			padding: 3px;
+		}
+
+		#nav li:hover{
+			background-color: #3399ff;
+		}
+
+		.page
+		{
+			background-color: white;
+			padding: 20px;
+			padding-bottom: 1;
+		}
+
+		#footer{
+			background-color: #99ccff;
+			height: 25px;
+			width: 100%;
+			color: grey;
+			padding: 15px
+		}
+		p{
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+<div id="header"><p>Acharya's Site</p>
+	<div class="container">
+		<div id="nametype"></div>
+		<div id="navBox">
+			<ul id="nav">
+				<a href="#"><li>Home</li></a>
+				<a href="#"><li>Items</li></a>
+				<a href="#"><li>About</li></a>
+				<a href="#"><li>Contact</li></a>
+			</ul>
+		</div>
+		
+	</div>
+</div>
+<div id="mainArea">
+	<div class="container page">
+		<h1>The Main Page</h1>
+		<p>This is the main page and contain all the nessesary information to complete the tasks that have been assigned.</p>
+		<h2>Wikipedia Text</h2>
+		In communications and information processing, code is a system of rules to convert information—such as a letter, word, sound, image, or gesture—into another form or representation, sometimes shortened or secret, for communication through a communication channel or storage in a storage medium. An early example is the invention of language, which enabled a person, through speech, to communicate what they saw, heard, felt, or thought to others. But speech limits the range of communication to the distance a voice can carry, and limits the audience to those present when the speech is uttered. The invention of writing, which converted spoken language into visual symbols, extended the range of communication across space and time.
+	</div>
+</div>
+<div id="footer">
+	<div class="container">
+		This is by law copyrighted :P
+	</div>
+</div>
+</body>
+</html>
